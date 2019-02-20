@@ -7,8 +7,8 @@ public class CalculatorTest {
 	public void testSum() {
 		
         System.out.println("sum");
-        Integer x = null;
-        Integer y = null;
+        Integer x = 10;
+        Integer y = 10;
         Integer expResult = 20;
         Integer result = Calculator.addCalc(x, y);
         assertEquals(expResult, result);
@@ -22,7 +22,7 @@ public class CalculatorTest {
         System.out.println("Difference");
         Integer x = 55;
         Integer y = 15;
-        Integer expResult = 30;
+        Integer expResult = 40;
         Integer result = Calculator.subCalc(x, y);
         assertEquals(expResult, result);
         assertEquals(null, Calculator.subCalc(15, null));
