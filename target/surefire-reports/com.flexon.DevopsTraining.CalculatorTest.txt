@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.flexon.DevopsTraining.CalculatorTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.096 s <<< FAILURE! - in com.flexon.DevopsTraining.CalculatorTest
+testSum(com.flexon.DevopsTraining.CalculatorTest)  Time elapsed: 0.019 s  <<< FAILURE!
+java.lang.AssertionError: expected:<20> but was:<null>
+	at com.flexon.DevopsTraining.CalculatorTest.testSum(CalculatorTest.java:14)
+
+testDiff(com.flexon.DevopsTraining.CalculatorTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected:<30> but was:<40>
+	at com.flexon.DevopsTraining.CalculatorTest.testDiff(CalculatorTest.java:27)
+
